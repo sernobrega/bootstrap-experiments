@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>These are a few of my favourite things!</title>
+    <!-- Boostrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand text-dark" href="index.html">
+            <i class="fas fa-heart text-danger"></i><div class="d-none d-sm-inline ml-2">These are a few of my favourite things!</div>        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="navbar-nav align-items-end">
+                <a href="http://www.sernobrega.com" class="nav-item nav-link active">Website</a>
+                <a href="https://github.com/sernobrega" class="nav-item nav-link active">Github</a>
+            </div>
+          </div>
+      </div>
+    </nav>
+
+    <!-- Header  -->
+    <div class="jumbotron bg-danger text-light rounded-0 m-0" id="header">
+      <div class="container">
+        <h1 class="display-4">Welcome!</h1>
+        <p class="lead">This is an experimental page using Bootstrap 4. Some of the components used here are navbar, jumbotron and card. For the cards, I am using the Masonry layout.</p>
+        <hr class="my-4">
+        <p>Enjoy some of my favourite things...</p>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="container p-3">
+      <div class="card-columns">
+        <div class="card">
+          <img class="card-img-top" src="img/koala.jpg" alt="Card image cap" style="object-fit: cover; height: 10vw;">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title m-0">Koala</h5> <a href="https://www.nationalgeographic.com/animals/mammals/k/koala/" class="btn btn-sm btn-danger btn btn-sm btn-danger d-sm-none d-md-inline">Learn more</a>
+            </div>
+            <p class="card-text text-justify">Did you know that Koalas rarely drink water, sleep up to 18 hours per day and that their main source of food is actually poisonous?</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/tape.jpg" alt="Card image cap" style="object-fit: cover; height: 10vw;">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title m-0">Music</h5>
+            </div>
+            <p class="card-text text-justify">Fits your mood like a glove. Some of my favourite musicians are Alt-J, ABBA, Paul Simon, Panic! At The Disco and Bob Dylan.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/banana.jpg" alt="Card image cap" style="object-fit: cover; height: 10vw;">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title m-0">Banana</h5> <a href="http://www.bananalink.org.uk/all-about-bananas" class="btn btn-sm btn-danger d-sm-none d-md-inline">Learn more</a>
+            </div>
+            <p class="card-text text-justify">Everyone's favourite berry! Full of potassium and characteristic from where I come from. Oh, did you know they actually don't grow on trees?</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/code.jpg" alt="Card image cap" style="object-fit: cover; height: 10vw;">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h5 class="card-title m-0">Code</h5>
+            </div>
+            <p class="card-text text-justify">My favourite programming languages are Java, Python and C but I like to be experimental!</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>Think of your many years of procrastination; how the gods have repeatedly granted you further periods of grace, of which you have taken no advantage. It is time now to realise the nature of the universe to which you belong, and of that controlling Power whose offspring you are; and to understand that your time has a limit set to it. Use it, then, to advance your enlightenment; or it will be gone, and never in your power again.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Marcus Aurelius in <cite title="Meditations">Meditations</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+      <h6 class="text-center font-weight-light text-secondary">Sérgio Nóbrega 2019</h6>
+
+    </div>
+
+    <!-- Bootstrap 4 JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
